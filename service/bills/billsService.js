@@ -7,8 +7,17 @@ const getListBills = async (page, limit) => {
 };
 
 
-const addBill = async (body) => {
-  return Bills.create(body);
+const addBill = async ({ companyName, gameName, amount, currency }) => {
+ 
+  const numberOfBill= Math.random()*1000000;
+ 
+  return Bills.create({
+    companyName,
+    gameName,
+    amount,
+    currency,
+    billNumber: Math.ceil(numberOfBill),
+  });
 };
 
 
