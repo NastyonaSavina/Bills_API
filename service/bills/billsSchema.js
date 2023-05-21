@@ -1,4 +1,7 @@
 const mongoose = require("mongoose");
+const {nanoid} =require("nanoid");
+
+
 
 const billsSchema = new mongoose.Schema(
   {
@@ -13,6 +16,10 @@ const billsSchema = new mongoose.Schema(
     amount: {
       type: Number,
       required: [true, "Choose the amount for the bill"],
+    },
+    billNumber: {
+      type: String,
+      default: nanoid(6),
     },
     currency: {
       type: String,
