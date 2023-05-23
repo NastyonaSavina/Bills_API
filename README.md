@@ -11,9 +11,8 @@
 ## Links
 
 <ul>
-	<li><a href="">Live Page</li>
-	<li><a href="">FrontEnd code</li>
-<!-- 	<li><a href="https://task-manager-backend-0lj0.onrender.com/api-docs/">Backend Documentation</li> -->
+	<li><a href="https://nastyonasavina.github.io/Bills/">Live Page</li>
+	<li><a href="https://github.com/NastyonaSavina/Bills">FrontEnd code</li>
 </ul>
 
 
